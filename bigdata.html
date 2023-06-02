@@ -2,7 +2,7 @@
  * @Author: wangshuo
  * @LastEditors: wangshuo
  * @Date: 2023-06-01 23:12:16
- * @LastEditTime: 2023-06-02 00:24:03
+ * @LastEditTime: 2023-06-02 17:43:54
  * @FilePath: \-\bigdata.html
  * @Environment: Windows
  * @Description: 
@@ -94,9 +94,31 @@
             <div class="item">贷款余额：10万</div>
             <div class="item">贷款期限：3年</div>
         </div>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tr>
+                <th></th>
+            </tr>
+        </table>
     </main>
     </div>
 <script src="js/jquery.min.js"></script>
 <script src="js/fontscroll.js"></script>
+<script>
+    $.get('json/erbiao.json',function(data) {
+        console.log(data);
+    })
+</script>
 </body>
 </html>
